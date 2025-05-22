@@ -11,8 +11,15 @@ function App() {
        () => {
         setvalue(value +1);
        }
-        
+      
        }>ADD </button>
+       <button onClick ={
+       () => {
+        setvalue(value -1);
+       }
+      
+       }>SUB </button>
+
     </>
   )
 }
