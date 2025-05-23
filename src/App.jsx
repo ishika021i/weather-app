@@ -13,19 +13,26 @@ function App() {
        }
       
        }>ADD </button>
-       <button onClick ={
+      <button onClick ={
        () => {
         setvalue(value +3);
        }
       
        }>ADD 3 </button>
-       <button onClick ={
+     <button onClick ={
+       () => {
+        setvalue(value -3);
+       }
+      
+       }>SUB 3 </button>
+     <button onClick ={
        () => {
         setvalue(value -1);
        }
       
        }>SUB </button>
     </>
+
   )
 }
 
