@@ -19,6 +19,12 @@ function App() {
        }
       
        }>SUB </button>
+       <button onClick ={
+       () => {
+        setvalue(value +2);
+       }
+      
+       }>ADD 2 </button>
     </>
   )
 }
