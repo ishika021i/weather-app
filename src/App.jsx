@@ -19,6 +19,12 @@ function App() {
        }
       
        }>ADD 3 </button>
+      <button onClick ={
+       () => {
+        setvalue(0);
+       }
+      
+       }>RESET </button>
      <button onClick ={
        () => {
         setvalue(value -3);
