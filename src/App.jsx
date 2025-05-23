@@ -20,6 +20,14 @@ function App() {
       
        }>SUB </button>
 
+        
+      }>ADD </button>
+      <button onClick ={
+       () => {
+        setvalue(0);
+       }
+        
+      }>RESET</button>
     </>
   )
 }
