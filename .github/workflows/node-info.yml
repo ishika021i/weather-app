@@ -5,17 +5,15 @@ on:
     branches: [develop]
 
 jobs:
-  node-info: 
-    runs-on : ubuntu-latest
+  node-info:
+    runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
 
-     - name: Checkout Repository code 
-       uses: actions/chechout@v3
+      - name: Print Node.js version
+        run: node -v || echo "Node is not installed yet"
 
-     - name: Print Node.js Version 
-       uses: node -v || echo " Node is not installed yet "
-       
-     - name: List Project File
-       uses: ls - la
-      
+      - name: List project files
+        run: ls -la
