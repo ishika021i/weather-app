@@ -11,14 +11,20 @@ function App() {
        () => {
         setvalue(value +1);
        }
-        
-      }>ADD </button>
-      <button onClick ={
+      
+       }>ADD </button>
+       <button onClick ={
        () => {
-        setvalue(0);
+        setvalue(value +3);
        }
-        
-      }>RESET</button>
+      
+       }>ADD 3 </button>
+       <button onClick ={
+       () => {
+        setvalue(value -1);
+       }
+      
+       }>SUB </button>
     </>
   )
 }
