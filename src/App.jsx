@@ -13,6 +13,7 @@ function App() {
        }
         
       }>ADD </button>
+
       <button onClick ={
        () => {
         setvalue(0);
